@@ -1,8 +1,8 @@
 {
   "name": "global-prefix-packages",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Find all globally installed npm packages matching a prefix",
-  "main": " ",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
