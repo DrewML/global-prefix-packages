@@ -1,0 +1,20 @@
+{
+  "name": "global-prefix-packages",
+  "version": "0.1.0",
+  "description": "Find all globally installed npm packages matching a prefix",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "packages",
+    "global"
+  ],
+  "author": "Andrew Levine",
+  "license": "MIT",
+  "dependencies": {
+    "pify": "^2.3.0"
+  },
+  "repository": "https://github.com/DrewML/global-prefix-packages"
+}
