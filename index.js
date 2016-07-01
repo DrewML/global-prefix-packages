@@ -1,3 +1,4 @@
+const { EOL } = require('os');
 const pify = require('pify');
 const { join } = require('path');
 const { readdir, stat } = require('fs');
@@ -9,8 +10,8 @@ const statAsync = pify(stat);
 
 function getGlobalModulesPath() {
     return pify(exec)('npm prefix -g').then(path => {
-        const pathWithoutEOL = path.replace('\n', '');
-        return join(pathWithoutEOL, 'lib/node_modules');
+        const pathWithoutEOL = path.replace(EOL, '');
+        return join(pathWithoutEOL, 'lib', 'node_modules');
     });
 }
 
