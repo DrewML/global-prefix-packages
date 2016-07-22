@@ -1,6 +1,6 @@
 # global-prefix-packages
 
-Find all globally installed `npm` modules matching a prefix.
+Find all globally installed `npm` modules matching a prefix. Includes support for [scoped `npm` packages](https://docs.npmjs.com/misc/scope).
 
 ## Install
 
@@ -16,10 +16,6 @@ $ npm install --save global-prefix-packages
 const globalPrefixPkgs = require('global-prefix-packages');
 
 globalPrefixPkgs('foo-plugin-').then(packages => {
-    console.log(packages); // ['foo-plugin-bar'] 
+    console.log(packages); // ['foo-plugin-bar']
 });
 ```
-
-## TODO:
-
-1. Support scoped packages

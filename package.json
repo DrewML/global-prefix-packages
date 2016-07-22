@@ -13,8 +13,5 @@
   ],
   "author": "Andrew Levine",
   "license": "MIT",
-  "dependencies": {
-    "pify": "^2.3.0"
-  },
   "repository": "https://github.com/DrewML/global-prefix-packages"
 }
