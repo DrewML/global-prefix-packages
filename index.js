@@ -12,7 +12,7 @@ function getGlobalPackages() {
 }
 
 function stripNpmScope(name) {
-    return name.replace(/@.+\//, '');
+    return name.replace(/^@.+\//, '');
 }
 
 module.exports = function(prefix) {
