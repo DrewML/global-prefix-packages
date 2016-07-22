@@ -1,6 +1,6 @@
 {
   "name": "global-prefix-packages",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Find all globally installed npm packages matching a prefix",
   "main": "index.js",
   "scripts": {
